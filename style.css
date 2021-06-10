@@ -24,34 +24,37 @@ header, main {
 
  body {
      font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-     font-size: 14px;
+     font-size: 10px;
      color: rgb(226, 117, 135);
+     line-height: 15px;
  }
  
 style{ 
     background: linear-gradient(to right, rgb(70, 17, 83), indianred,  rgb(226, 117, 135),  rgb(118, 207, 207));
  }
 
-
+h1, h2, h3, h4, h5 {
+    color:turquoise;
+}
 
 h1 {
     font-size: 20px;
     font-weight: 900;
     font-family:monospace;
-    color: turquoise;
     padding: 5px;
     flex-wrap: wrap;
 }
 
-ul li {
-    
+.contact 
+{
     padding:10px;
     text-align: center;
     align-content: flex-start;
 }
 
-nav ul {
+nav {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
     justify-content: flex-end;
@@ -65,4 +68,28 @@ nav a {
     color: rgb(173, 218, 230);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
     font-size: 8px;
+    
+}
+nav a:hover {
+    color:indigo;
+  }
+
+
+aside {
+    display: Block;
+    width: 22%;
+    align-content:flex-start;
+}
+
+#AboutMe, #work, #ContactMe {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row ;
+}
+
+aside h5 {
+    float: left;
+}
+h2 {
+
 }
