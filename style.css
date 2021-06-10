@@ -3,10 +3,6 @@
     margin: 0;
  }
 
- @media screen and (max-width: 768px)
-header, main {
-    flex-direction: column;
-}
 
 .banner img {
     display: block;
@@ -28,13 +24,11 @@ header, main {
      color: rgb(226, 117, 135);
      line-height: 15px;
  }
- 
-style{ 
-    background: linear-gradient(to right, rgb(70, 17, 83), indianred,  rgb(226, 117, 135),  rgb(118, 207, 207));
- }
 
-h1, h2, h3, h4, h5 {
+h2, h3, h4, h5 {
     color:turquoise;
+    font-size: 12px;
+    text-align: left;
 }
 
 h1 {
@@ -43,6 +37,7 @@ h1 {
     font-family:monospace;
     padding: 5px;
     flex-wrap: wrap;
+    color: turquoise;
 }
 
 .contact 
@@ -76,20 +71,48 @@ nav a:hover {
 
 
 aside {
-    display: Block;
-    width: 22%;
-    align-content:flex-start;
+    float: right;
+    width: 20%;
+    line-height: 10px;
+    margin-right: 5px;
+    padding: 5px;
+    text-align: right;
 }
 
 #AboutMe, #work, #ContactMe {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row ;
-}
-
-aside h5 {
-    float: left;
-}
-h2 {
+    align-items: flex-start;
+    justify-content: flex-start;
 
 }
+
+figure img {
+    border-radius: 30%;
+    padding: 0;
+    display: block;
+}
+section {
+    display:flex;
+    border-bottom: 1px double rgb(114, 9, 70);
+}
+
+.photogrid {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: space-evenly;
+}
+
+#work {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 768px)
+    header, #work {
+        flex-direction: column;
+    }
+    
+
