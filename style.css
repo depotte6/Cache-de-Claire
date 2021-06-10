@@ -1,52 +1,68 @@
 * {
     box-sizing: border-box;
-    padding: 0;
-    border: 0;
+    margin: 0;
+ }
+
+ @media screen and (max-width: 768px)
+header, main {
+    flex-direction: column;
+}
+
+.banner img {
+    display: block;
+    max-width: 100%;
+}
+
+ header {
+     display: flex;
+     justify-content: space-around;
+     align-items: flex-start;
+     background-color: rgb(226, 117, 135);
+     padding: 5px;
+    
  }
 
  body {
      font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
      font-size: 14px;
-     color:tomato
+     color: rgb(226, 117, 135);
  }
  
- style {
-    background-color:linear-gradient(blue, red)
-    background-image: img src="bluebrick.jpg";
-}
+style{ 
+    background: linear-gradient(to right, rgb(70, 17, 83), indianred,  rgb(226, 117, 135),  rgb(118, 207, 207));
+ }
 
-figure {
-    width: 10px;
-    display: none;
-}
 
 
 h1 {
-    text-align: left;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 900;
-    font-style: unset;
     font-family:monospace;
-    color: indigo;
-    letter-spacing: 2px;
-}
-
-
-li {
-    color: darkblue;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 15px;
-    display: inline-flex;
-    justify-content: space-around;
-    float: right;
-    display: inline flex;
-}
-
-.container {
-    display: flex;
+    color: turquoise;
+    padding: 5px;
     flex-wrap: wrap;
-    justify-content: flex-end;
-    margin: 0;
-    padding: 0;
+}
 
+ul li {
+    
+    padding:10px;
+    text-align: center;
+    align-content: flex-start;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+nav a {
+    color: rgb(173, 218, 230);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    font-size: 8px;
 }
