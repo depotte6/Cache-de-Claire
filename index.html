@@ -3,100 +3,138 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>CACHE-DE-CLAIRE</title>
-  <link rel="stylesheet" "type=text/css" href="./assets/CACHE-DE-CLAIRE.STYLE.css"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="Cache-de-Claire" content="portfolio" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Calistoga&family=Cherry+Swash&family=Handlee&family=Kameron:wght@400;700&family=Patua+One&family=Prata&family=Yeseva+One&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="./assets/CACHE-DE-CLAIRE.STYLE.css" />
 
 </head>
 
-<body>
+
 <div class="container">
-<header>
-   <figure id="me" > 
-    <img src="./assets/photos/picofme.jpg" width =250>
-   </figure>
-  <h1>Claire <br>VanAssche <br>DePotter</h1>
+  <header class="has-background-dark">
+    <div class="tile is-ancestor px-5 pb-0">
+    <figure id="me">
+      <img src="./assets/photos/picofme.jpg" width=150>
+    </figure>
+   
+      <div class="tile is-parent">
+        <div class="tile is-child box has-background-dark">
+          <p id="title" class="title"><strong
+              class=" title is-spaced is-text-strong has-text-link-light">Claire</strong><strong
+              class=" is-spaced has-text-danger-light">VanAssche</strong><strong
+              class=" is-spaced has-text-primary-light">DePotter</strong></p>
+        </div>
+      </div>
+      <nav>
+        <div class="tile is-child is-left-align">
+        <ul class="topnav">
+          <button class="button is-ghost is-small"><a href="#AboutMe"> About Me</a></button>
+          <button class="button is-ghost is-small"><a href="#Work"> Work</a></button>
+          <button class="button is-ghost is-small"><a href="#ContactMe"> Contact Me</a></il>
+        </ul>
+        </div>
+      </nav>
+  </header>
 
-       <nav>
-        <ul class="topnav"> 
-             </li><a href="#AboutMe"> About Me</a></il>
-            </li><a href="#Work"> Work</a></il>
-          </li><a href="#ContactMe"> Contact Me</a></il>
-    </ul>
-  </nav> 
-</header>
 
-<section>
-  <figure class="banner">
-  <img src="./assets/photos/bluebrick-1.jpg">
-  </figure>
-  </section>
+
 </div>
 
+<body class="has-background-dark">
+  <main>
 
-<main>
-  <article>
+    <div class="tile is-ancestor px-5">
+      <div class="tile is-7 is-vertical is-parent">
+        <div class="tile is-child box has-background-info-light">
+          <div class="content" id="aboutMe">
+            <p class="title has-text-sucess-dark">A little bit about me...</p>
+            <div class="content is-size-4">
+              <ul>
+                <li>I love creating things - anything and everything!</li>
+                <li>Attention to detail is important to me. </li>
+                <li>I'm an animal lover and nature-enthusiast. </li>
+                <li> I love color in everything! </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-  <section id="AboutMe">
-    <h2>A little bit about me...</h2>
-      <ul>
-        <li>I love creating things - anything and everything!</li>
-        <li>Attention to detail is important to me. </li>
-        <li>I'm an animal lover and nature-enthusiast. </li>
-          <li> I love color in everything!  </li> 
-          </ul>
-    </section>
+    <div class="container-fluid pb-3 px-3">
+      <div class="tile is-parent ">
+        <div class="tile is-child box is-12 has-background-success-light">
+          <h2 class="title has-text-sucess-dark">My Work</h2>
+          <h4 class="title has-sucess">(...in progress)</h4>
+          <section class="photogrid">
+            <section class="card">
+              <p class="1stfigure">
+                <figure class="photo">
+                  <a href="https://github.com/depotte6/Cache-de-Claire.git"><img src="./assets/photos/cvd.jpg" width=200
+                      padding=10>
+                    <figcaption>This is My Repository:<br> "Cache-de-Claire"</figcaption>
+                </figure>
+              </p>
+            </section>
 
-    <aside>
-      <p>When i'm not working at developing these skills you could find me:</h5>
-          gardening.
-          painting. drawing. do0o0dling.
-          wood-working.</p>
-  </aside>
+            <section class="card">
+              <figure class="photo">
+                <a href="https://depotte6.github.io/Daily_Docket/"><img src="./assets/photos/dailydocket.jpg"
+                    alt="github.com/depotte6" width=200 padding=10>
+                  <figcaption>A daily-interactive calander <br>using moment.js </figcaption>
+              </figure>
+            </section>
 
-  <article id="Work">
-    <h3>My Work...in progress</h3>
-     <section class="photogrid">
-      <section class="card">
-        <p class="1stfigure">
-          <figure class="photo">
-             <a href="https://github.com/depotte6/Cache-de-Claire.git"><img src="./assets/photos/cvd.jpg" width=200 padding=10>
-                <figcaption>This is My Repository:<br> "Cache-de-Claire"</figcaption></figure>
-                  </p>
-                 </section>
+            <section class="card">
+              <figure class="photo">
+                <a href="https://depotte6.github.io/comic-call/"><img src="./assets/photos/comiccall.png" width=200
+                    padding=10></a>
+                <figcaption>A group project<br> using API calls<figcaption>
+              </figure>
+            </section>
 
-<section class="card">
-  <figure class="photo">
-    <a href="https://depotte6.github.io/Daily_Docket/"><img src="./assets/photos/dailydocket.jpg" alt="github.com/depotte6"width=200 padding=10>
-      <figcaption>A daily-interactive calander <br>using moment.js </figcaption></figure>
-        </section>
-
-<section class="card">
-  <figure class="photo">
-    <a href="https://depotte6.github.io/comic-call/"><img src="./assets/photos/comiccall.png" height=200 padding=10>
-      <figcaption>A group project<br> using API calls<figcaption></figure>
           </section>
-
-      
-      
-  </section>
-</article>
-      
-        
-      
-      <section id="ContactMe">
-        <h4>Here's how to get ahold of me!</H4>
-          <ul>
-      <li id="email"><strong>Email:  </strong><a href="#">Depotte6@gmail.com </a> </li>
-             <li id="github"><strong>GitHub:  </strong><a href="#"">https://github.com/depotte6 </a></li>
-             <li id="Linkedin"><strong>Linkedin:  </strong><a href="#">https://www.linkedin.com/in/claire-depotter-abbb1b46/ </a> </li>
-     </ul>
-</section>
-</article>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="tile is-parent">
+        <div class="tile is-child is-4 has-background-info-light">
+          <p>When i'm not working at developing these skills you could find me:</h5>
+            gardening.
+            painting. drawing. do0o0dling.
+            wood-working.</p>
+        </div>
+      </div>
+    </div>
 
 
 
-</main>
+
+
+    <div class="container-fluid pb-3 px-3">
+      <div class="tile is-parent ">
+        <div class="tile is-child box is-12 has-background-success-light">
+          <h2 class="title has-text-sucess-dark">Here's how to get ahold of me!</h4>
+            <ul>
+              <li id="email"><strong>Email: </strong><a href="#">Depotte6@gmail.com </a> </li>
+              <li id="github"><strong>GitHub: </strong><a href="#">https://github.com/depotte6 </a></li>
+              <li id="Linkedin"><strong>Linkedin: </strong><a
+                  href="#">https://www.linkedin.com/in/claire-depotter-abbb1b46/ </a> </li>
+            </ul>
+            </section>
+            </article>
+
+
+
+  </main>
 
 
 </body>
@@ -104,8 +142,5 @@
   <h6> THANK YOU!</h6>
   <p> I am a work in progress and I look forward to sharing how much my skill set had grown next time you stop by :)</p>
 </footer>
-</html>
 
- 
-         
-     
+</html>
