@@ -1,4 +1,4 @@
-css
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -12,14 +12,13 @@ body {
 } 
 
 header {
-    background-color: indianred;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: flex-start;
     align-items: flex-end;
-    padding: 20px;√
-    overflow: hidden;
+    padding: 20px;
+
 }
 
 .banner img {
@@ -28,7 +27,6 @@ header {
     margin-top: -30px;
     margin-left: -40px;
     width: 98vw;
-    overflow: hidden;
 }
 
 header h1 {
